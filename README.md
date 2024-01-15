@@ -1,2 +1,3 @@
-# gsap-experiments
-Projeto para testar funcionalidades gsap
+## Teste Gsap
+
+Este projeto é um estudo da bilbioteca gspa

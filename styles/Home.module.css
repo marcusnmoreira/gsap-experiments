@@ -1,0 +1,16 @@
+/* H1Component.module.css */
+.h1Title {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.h1Title:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
