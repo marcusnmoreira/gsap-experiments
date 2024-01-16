@@ -1,26 +1,27 @@
 import React, { useEffect, useRef } from "react";
-import Link from "next/link";
+import Header from "@/components/Header";
 import { gsap } from "gsap";
 import styles from "../styles/Home.module.css";
 
-export default function H1Component() {
-  const h1Ref = useRef(null);
-
+const HomePage = () => {
   useEffect(() => {
-    gsap.fromTo(
-      h1Ref.current,
-      { opacity: 0, y: -20 }, // Valores iniciais
-      { opacity: 1, y: 0, duration: 1, delay: 0.5, ease: "power3.out" } // Valores finais
-    );
+    // Add GSAP animation here
   }, []);
 
   return (
-    <div className={styles.container}>
-      <Link href="/teste">
-        <h1 ref={h1Ref} className={styles.h1Title}>
-          Teste de página
+    <div>
+      <Header />
+      <main className={styles.main}>
+        <h1>
+          FRONT-END DEV.
+          <br />
+          LIVING IN
+          <br />
+          BELGIUM BRUSSELS
         </h1>
-      </Link>
+      </main>
     </div>
   );
-}
+};
+
+export default HomePage;
