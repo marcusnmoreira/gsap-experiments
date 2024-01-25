@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { gsap } from "gsap";
 import styles from "../styles/Home.module.css";
 
@@ -9,7 +10,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
+    <div className={styles.containerBody}>
       <Header />
       <main className={styles.main}>
         <h1>
@@ -20,6 +21,7 @@ const HomePage = () => {
           BELGIUM BRUSSELS
         </h1>
       </main>
+      <Footer />
     </div>
   );
 };
