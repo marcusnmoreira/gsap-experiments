@@ -1,0 +1,28 @@
+/* styles/Footer.module.css */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 5%;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.professionTitle {
+  font-family: "Poppins";
+  color: var(--cor-texto-primario);
+  font-size: max(0.90625rem, min(1.15vw, 1.3rem));
+}
+
+.svgSection {
+  /* Estilize conforme necessário */
+}
+
+/* Estilize o SVG conforme necessário */

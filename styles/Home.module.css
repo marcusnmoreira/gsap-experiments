@@ -1,25 +1,48 @@
-/* H1Component.module.css */
-.h1Title {
-  cursor: pointer;
-  text-decoration: none;
-  font-family: "obviously", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-}
-
-.h1Title:hover {
-  text-decoration: underline;
+.containerBody {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 630px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  color: var(--cor-texto-primario);
 }
 
-.containerBody {
-  width: 90%;
-  margin: 0 auto;
+.title {
+  grid-column: 3 / 13;
+  grid-row: 1;
+  font-size: 16vw;
+  line-height: 0.9;
+}
+
+.living {
+  grid-column: 3/11;
+  grid-row: 2;
+  font-size: 16vw;
+  line-height: 0.9;
+}
+
+.location {
+  grid-column: 8/13;
+  grid-row: 2;
+  margin: 2% 0 0 5%;
+}
+
+.cityCountry {
+  display: block;
+  font-size: 7.2vw;
+  line-height: 0.9;
+  text-align: left;
+  letter-spacing: 0.2rem;
 }

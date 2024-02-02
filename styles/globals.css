@@ -1,7 +1,18 @@
+:root {
+  --cor-texto-primario: #e8e7cb;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+@font-face {
+  font-family: "DrukCond";
+  src: url(../public/fonts/DrukCond-Super-Cy-Gr-Web.woff2) format("woff");
+  src: url(../public/fonts/DrukCond-Super-Cy-Gr-Web.woff2) format("woff2");
+  font-display: swap;
 }
 
 html,
@@ -12,5 +23,5 @@ body {
 }
 
 body {
-  font-family: "obviously-condensed", sans-serif;
+  font-family: "DrukCond", sans-serif;
 }

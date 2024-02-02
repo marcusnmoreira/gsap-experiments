@@ -12,14 +12,15 @@ const HomePage = () => {
   return (
     <div className={styles.containerBody}>
       <Header />
-      <main className={styles.main}>
-        <h1>
-          FRONT-END DEV.
-          <br />
-          LIVING IN
-          <br />
-          BELGIUM BRUSSELS
-        </h1>
+      <main className={styles.container}>
+        <div className={styles.grid}>
+          <span className={styles.title}>FRONT-END DEV.</span>
+          <span className={styles.living}>LIVING IN</span>
+          <span className={styles.location}>
+            <span className={styles.cityCountry}>BELGIUM</span>
+            <span className={styles.cityCountry}>BRUSSELS</span>
+          </span>
+        </div>
       </main>
       <Footer />
     </div>

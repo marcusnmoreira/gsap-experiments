@@ -11,7 +11,7 @@
 }
 
 .logo {
-  color: #fffee3;
+  color: var(--cor-texto-primario);
   font-size: 3.75rem;
 }
 .menuLink {

@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.textSection}>
-        <p>Web Developer</p>
-        <p>Web Designer</p>
-        <p>Portfolio</p>
+        <p className={styles.professionTitle}>Web Developer</p>
+        <p className={styles.professionTitle}>Web Designer</p>
+        <p className={styles.professionTitle}>Portfolio</p>
       </div>
       <div className={styles.svgSection}>
         {/* Coloque seu SVG aqui. Exemplo de um SVG de seta: */}
