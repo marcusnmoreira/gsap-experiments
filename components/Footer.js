@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Footer.module.css"; // Importa o arquivo de estilo
+import ArrowIcon from "../public/arrow.js";
 
 const Footer = () => {
   return (
@@ -10,10 +11,7 @@ const Footer = () => {
         <p className={styles.professionTitle}>Portfolio</p>
       </div>
       <div className={styles.svgSection}>
-        {/* Coloque seu SVG aqui. Exemplo de um SVG de seta: */}
-        <svg width="50" height="50" viewBox="0 0 24 24">
-          <path d="M12 21l-12-18h24z" />
-        </svg>
+        <ArrowIcon />
       </div>
     </footer>
   );

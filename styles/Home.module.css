@@ -22,26 +22,26 @@
 .title {
   grid-column: 3 / 13;
   grid-row: 1;
-  font-size: 16vw;
+  font-size: 19vw;
   line-height: 0.9;
 }
 
 .living {
   grid-column: 3/11;
   grid-row: 2;
-  font-size: 16vw;
+  font-size: 19vw;
   line-height: 0.9;
 }
 
 .location {
-  grid-column: 8/13;
+  grid-column: 9/13;
   grid-row: 2;
   margin: 2% 0 0 5%;
 }
 
 .cityCountry {
   display: block;
-  font-size: 7.2vw;
+  font-size: 8.9vw;
   line-height: 0.9;
   text-align: left;
   letter-spacing: 0.2rem;
